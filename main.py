@@ -13,7 +13,7 @@ operator = input("what would you like to do?")
 
 opr = ["+", "-", "*", "/"]
 
-opration = [num1 + num2 if operator == opr[0] else num1 - num2 if operator == opr[1] else num1 * num2 if operator == opr[2] else num1 / num2 if operator == opr[3] else opr.append("the operation is not valid")   for itm in opr  ]
+opration = [num1 + num2 if operator == opr[0] else num1 - num2 if operator == opr[1] else num1 * num2 if operator == opr[2] else num1 / num2 if operator == opr[3] else opr[0]== ("the operation is not valid")   for itm in opr  ]
 
 '''def test(status):
   if status == "the operation is not valid":
