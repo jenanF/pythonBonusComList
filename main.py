@@ -19,4 +19,4 @@ opration = [num1 + num2 if operator == opr[0] else num1 - num2 if operator == op
   if status == "the operation is not valid":
     print(status)
   else:'''
-print(opration[0])
+print(opration)
